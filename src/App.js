@@ -16,9 +16,9 @@ function App() {
       document.referrer = {document.referrer}
       <br />
       <br />
-      <a href={document.referrer + 'calculator?status=cool'}>Вернуться назад со статусом - все круто</a>
+      <a href={document.referrer}>Вернуться назад со статусом - все круто</a>
       <br />
-      <a href={document.referrer + 'calculator?status=sad'}>Вернуться назад со статусом - все грустно</a>
+      <a href={document.referrer}>Вернуться назад со статусом - все грустно</a>
       <br />
       <br />
       window.navigator:
